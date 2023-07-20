@@ -1,0 +1,844 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(blue, rgb(131, 176, 212));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.mobile-icon,
+.mobileIcon {
+    display: none;
+}
+
+.Rosenics-main-one {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: linear-gradient(blue, rgb(131, 176, 212));
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.main-div {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.main-div h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.main-div p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.tick-icon {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tick-icon svg {
+    color: #FFFFFF;
+
+}
+
+.tick-icon h6 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 6px;
+}
+
+.button-one {
+    color: #FFFFFF;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 15px;
+    display: flex;
+}
+
+.test svg {
+    padding-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.drone-one {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.drone-one img {
+    width: 100%;
+}
+
+.Rosenics-main-two {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    background-color: rgb(250, 249, 249);
+    height: 550px;
+
+}
+
+.main-div-one h1 {
+    padding-top: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-div-one p {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.main-div-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box-one {
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+    width: 450px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.box-one h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Rosenics-main-three {
+    background-color: rgb(245, 244, 241);
+    padding-left: 100px;
+    padding-right: 100px;
+    height: fit-content;
+}
+
+.main-div-four {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-one {
+    display: grid;
+}
+
+.box-three {
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+    width: 160px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.box-three h3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 20px;
+}
+
+.box-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-div img {
+    width: 75%;
+}
+
+.Rosenics-main-four {
+    background-color: rgb(245, 244, 241);
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 650px;
+}
+
+.box-five {
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+    width: 360px;
+    height: 170px;
+    border-radius: 5px;
+    margin-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-five h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 20px;
+}
+
+.box-five p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 15px;
+}
+
+.div-box {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.div-box img {
+    width: 60%;
+
+}
+
+.Rosenics-main-five {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(250, 249, 249);
+    height: 550px;
+}
+
+.main-div-five {
+    padding-top: 30px;
+    padding-left: 100px;
+
+}
+
+.main-div-five h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.main-div-five p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529;
+    margin-top: 10px;
+}
+
+.main-div-six {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-two {
+    display: flex;
+    padding-top: 20px;
+}
+
+.div-two input {
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 500px;
+}
+
+.main-div-seven form {
+    padding-top: 20px;
+}
+
+.div-three {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-two {
+    cursor: pointer;
+    background-color: rgb(29, 99, 230);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 5px;
+}
+
+.div-meg {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.div-meg img {
+    width: 75%;
+}
+
+.Rosenics-main-six {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: linear-gradient(rgb(44, 44, 206), rgb(67, 111, 148));
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.Rosenics-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-four h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.div-four {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.footer-navbar {
+    margin-right: 100px;
+}
+
+.footer-navbar p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.div-five {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.div-five span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.div-five svg {
+    color: #FFFFFF;
+    width: 30px;
+}
+
+.div-six h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.div-seven {
+    display: flex;
+    margin-top: 20px;
+}
+
+.div-seven p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.div-seven svg {
+    color: #FFFFFF;
+    width: 30px;
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .header h1 {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .navbar ul {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, .1);
+        border-radius: 3px;
+        padding: 6px;
+    }
+
+    .mobile-icon:hover {
+        display: block;
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, .55);
+        border-radius: 3px;
+        padding: 6px;
+    }
+
+    .mobileIcon {
+        display: none;
+    }
+
+    .navbar ul li {
+        list-style-type: none;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+    .mobileIcon:checked~.navbar {
+        display: grid;
+        position: absolute;
+        padding: 10px;
+        background-color: blue;
+        width: 90%;
+        top: 60px;
+    }
+
+    .Rosenics-main-one {
+        padding-left: 10px;
+        padding-right: 10px;
+        background: linear-gradient(blue, rgb(131, 176, 212));
+        display: grid;
+        height: 600px;
+    }
+
+    .main-div {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .main-div h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .main-div p {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .tick-icon {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .tick-icon svg {
+        color: #FFFFFF;
+
+    }
+
+    .tick-icon h6 {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 6px;
+    }
+
+    .button-one {
+        color: #FFFFFF;
+        background-color: blue;
+        border-radius: 5px;
+        border: 2px solid blue;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 15px;
+        display: flex;
+    }
+
+    .test svg {
+        padding-left: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .drone-one {
+        display: flex;
+        width: 100%;
+    }
+
+    .drone-one img {
+        width: 100%;
+    }
+
+    .Rosenics-main-two {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 40px;
+        background-color: rgb(250, 249, 249);
+        height: 850px;
+    }
+
+    .main-div-one h1 {
+        padding-top: 20px;
+        font-size: 30px;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .main-div-one p {
+        font-size: 15px;
+        color: black;
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .main-div-three {
+        display: grid;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .box-one {
+        margin-top: 15px;
+        background-color: white;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+        width: 300px;
+        height: 100px;
+        border-radius: 5px;
+
+    }
+
+    .box-one h3 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .Rosenics-main-three {
+        background-color: rgb(245, 244, 241);
+        padding-left: 10px;
+        padding-right: 10px;
+        height: fit-content;
+    }
+
+    .main-div-four {
+        display: grid;
+        margin-top: 20px;
+    }
+
+    .box-two {
+        display: grid;
+        justify-content: center;
+    }
+
+    .test-one {
+        display: grid;
+    }
+
+    .box-three {
+        background-color: white;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+        width: 160px;
+        height: 120px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+
+    .box-three h3 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 20px;
+    }
+
+    .box-div {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .box-div img {
+        width: 100%;
+    }
+
+    .Rosenics-main-four {
+        background-color: rgb(245, 244, 241);
+        padding-left: 10px;
+        padding-right: 10px;
+        height: fit-content;
+    }
+
+    .box-four {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .box-five {
+        background-color: white;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px;
+        width: 300px;
+        height: 170px;
+        border-radius: 5px;
+        margin-top: 45px;
+    }
+
+    .box-five h3 {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 40px;
+        line-height: 20px;
+    }
+
+    .box-five p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .div-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div-box img {
+        width: 100%;
+    }
+
+    .Rosenics-main-five {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgb(250, 249, 249);
+        height: 700px;
+    }
+
+    .main-div-five {
+        padding-top: 30px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .main-div-five h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .main-div-five p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #212529;
+        margin-top: 10px;
+    }
+
+    .main-div-six {
+        display: grid;
+    }
+
+    .div-two {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .div-two input {
+        margin-left: 10px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        width: 100%;
+    }
+
+    .main-div-seven form {
+        padding-top: 20px;
+    }
+
+    .div-three {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .button-two {
+        cursor: pointer;
+        background-color: rgb(29, 99, 230);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        width: 150px;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 5px;
+    }
+
+    .div-meg {
+        padding-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div-meg img {
+        width: 100%;
+    }
+
+    .Rosenics-main-six {
+        padding-left: 10px;
+        padding-right: 10px;
+        background: linear-gradient(rgb(44, 44, 206), rgb(67, 111, 148));
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .Rosenics-footer {
+        display: grid;
+
+    }
+
+    .div-four h1 {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .div-four {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 10px;
+
+    }
+
+    .footer-navbar p {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .div-five {
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .div-five span {
+        font-size: 15px;
+        font-weight: 400;
+        color: #FFFFFF;
+        padding-left: 5px;
+    }
+
+    .div-five svg {
+        color: #FFFFFF;
+        width: 25px;
+    }
+
+    .div-six h3 {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .div-seven {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .div-seven p {
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-left: 5px;
+
+    }
+
+    .div-seven svg {
+        color: #FFFFFF;
+        width: 30px;
+        padding: 0;
+    }
+}
